@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Machine Learning
+qgisMinimumVersion=2.0
+description=Satellite image classification based on machine learning
+version=0.1
+author=lerryws
+email=@wslerry2@hotmail.com
+
+about=Application of machine learning to classify satelite images, based on scikit-learn module.
+
+tracker=https://github.com/wslerry/machine_learning_classifier/issues
+repository=https://github.com/wslerry/machine_learning_classifier
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python machine_learning image_procesing
+
+homepage=https://github.com/wslerry/machine_learning_classifier
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
